@@ -1,0 +1,48 @@
+{
+  "negocio": "Consultorio de Nutrición",
+  "nombreProfesional": "Lic. María González",
+  "especialidad": "Nutricionista Clínica y Deportiva",
+  "matricula": "MN 12345",
+  "telefono": "+54 351 123-4567",
+  "whatsapp": "5493511234567",
+  "email": "consultas@lvnutricion.com.ar",
+  "direccion": "Av. Colón 1234, Piso 3, Of. 5 — Córdoba Capital",
+  "instagram": "#",
+  "facebook": "#",
+  "descripcionFooter": "Nutrición personalizada para que alcances tus objetivos con respaldo científico y acompañamiento real.",
+  "hero": {
+    "titulo": "Tu mejor versión empieza con lo que comés",
+    "subtitulo": "Planes alimentarios personalizados, sin dietas genéricas. Te acompaño con evidencia científica para que alcances tus objetivos de forma real y sostenible.",
+    "stats": [
+      { "valor": "8+", "label": "Años de experiencia" },
+      { "valor": "1.200+", "label": "Pacientes atendidos" },
+      { "valor": "94%", "label": "Tasa de éxito" }
+    ]
+  },
+  "comoTrabajo": {
+    "titulo": "Un camino claro hacia tus objetivos",
+    "subtitulo": "Cada proceso es único. Así es como trabajo con cada paciente.",
+    "pasos": [
+      {
+        "numero": "01",
+        "titulo": "Primera consulta",
+        "descripcion": "Evaluación completa de tu estado nutricional, historial clínico, hábitos y objetivos. Sin juicios, con escucha real."
+      },
+      {
+        "numero": "02",
+        "titulo": "Diagnóstico y plan",
+        "descripcion": "Diseño un plan alimentario 100% personalizado adaptado a tus gustos, horarios y estilo de vida. Sin restricciones absurdas."
+      },
+      {
+        "numero": "03",
+        "titulo": "Seguimiento",
+        "descripcion": "Controles periódicos para ajustar el plan según tu evolución, resolver dudas y mantener la motivación."
+      },
+      {
+        "numero": "04",
+        "titulo": "Resultados reales",
+        "descripcion": "Cambios sostenibles en el tiempo. No solo en el peso, sino en tu energía, bienestar y relación con la comida."
+      }
+    ]
+  }
+}

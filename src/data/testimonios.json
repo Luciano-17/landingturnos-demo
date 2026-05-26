@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laura M.",
+    "ocupacion": "Docente",
+    "estrellas": 5,
+    "texto": "Llevaba años probando dietas sin resultados. Con el plan de María por primera vez entendí cómo comer bien sin pasar hambre. Bajé 8 kg en 4 meses y me siento con muchísima energía."
+  },
+  {
+    "id": 2,
+    "nombre": "Sebastián R.",
+    "ocupacion": "Corredor amateur",
+    "estrellas": 5,
+    "texto": "Mejoré mis tiempos de carrera notablemente desde que empecé con la nutrición deportiva. El plan se adapta a mis semanas de entrenamiento y competencia. Muy profesional."
+  },
+  {
+    "id": 3,
+    "nombre": "Valeria T.",
+    "ocupacion": "Administrativa",
+    "estrellas": 5,
+    "texto": "Tengo celiaquía y siempre fue difícil encontrar un profesional que realmente entienda mis restricciones. María armó un plan rico, variado y 100% seguro para mí."
+  },
+  {
+    "id": 4,
+    "nombre": "Diego F.",
+    "ocupacion": "Ingeniero",
+    "estrellas": 4,
+    "texto": "El seguimiento mensual marca la diferencia. No es solo el plan inicial — es el acompañamiento continuo lo que hace que uno se mantenga en el camino."
+  },
+  {
+    "id": 5,
+    "nombre": "Camila S.",
+    "ocupacion": "Estudiante universitaria",
+    "estrellas": 5,
+    "texto": "Pensé que comer sano siendo estudiante era imposible. María me dio herramientas reales para el día a día: rápido, económico y nutritivo. La recomiendo a todos."
+  },
+  {
+    "id": 6,
+    "nombre": "Roberto A.",
+    "ocupacion": "Jubilado",
+    "estrellas": 5,
+    "texto": "Me derivó mi cardiólogo por la hipertensión. El abordaje fue muy serio y los resultados se notaron en los análisis al mes. Profesional y muy dedicada."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icono": "clipboard",
+    "nombre": "Consulta inicial",
+    "descripcion": "Evaluación completa de tu estado nutricional, hábitos y objetivos. Incluye análisis de composición corporal."
+  },
+  {
+    "id": 2,
+    "icono": "document",
+    "nombre": "Plan alimentario personalizado",
+    "descripcion": "Diseño de un plan adaptado a tus gustos, horarios y objetivos. Sin dietas genéricas."
+  },
+  {
+    "id": 3,
+    "icono": "chart",
+    "nombre": "Seguimiento mensual",
+    "descripcion": "Controles periódicos para ajustar el plan según tu evolución y mantener la motivación."
+  },
+  {
+    "id": 4,
+    "icono": "dumbbell",
+    "nombre": "Nutrición deportiva",
+    "descripcion": "Planes para optimizar el rendimiento, la recuperación muscular y la composición corporal."
+  },
+  {
+    "id": 5,
+    "icono": "scale",
+    "nombre": "Control de peso",
+    "descripcion": "Acompañamiento para bajar o subir de peso de forma saludable y sostenible en el tiempo."
+  },
+  {
+    "id": 6,
+    "icono": "heart",
+    "nombre": "Nutrición clínica",
+    "descripcion": "Abordaje nutricional para patologías como diabetes, hipertensión, celiaquía y más."
+  }
+]

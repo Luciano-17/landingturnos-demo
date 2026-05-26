@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>OG Image Preview — LV Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Instrument+Serif&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background-color: #0d1a0f;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 56px 72px;
+      position: relative;
+    }
+
+    /* Decoración de fondo */
+    body::before {
+      content: '';
+      position: absolute;
+      top: -120px;
+      right: -120px;
+      width: 480px;
+      height: 480px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(74,155,111,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    body::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      left: -80px;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(74,155,111,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    /* Header: logo + badge */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: #4a9b6f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-icon svg { width: 22px; height: 22px; }
+    .logo-text {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.3px;
+    }
+    .logo-text span { color: #4a9b6f; }
+
+    .badge {
+      background: rgba(74,155,111,0.15);
+      border: 1px solid rgba(74,155,111,0.35);
+      border-radius: 100px;
+      padding: 8px 20px;
+      color: #4a9b6f;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    /* Contenido central */
+    .center {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px 0 16px;
+    }
+
+    .label {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #4a9b6f;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .label::before {
+      content: '';
+      display: inline-block;
+      width: 32px;
+      height: 2px;
+      background: #4a9b6f;
+      border-radius: 2px;
+    }
+
+    .title {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 68px;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 1.08;
+      letter-spacing: -1px;
+      margin-bottom: 24px;
+      max-width: 780px;
+    }
+    .title em {
+      color: #4a9b6f;
+      font-style: italic;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.5;
+      max-width: 580px;
+    }
+
+    /* Footer */
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 28px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .url {
+      font-size: 15px;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.3px;
+    }
+
+    .pills {
+      display: flex;
+      gap: 10px;
+    }
+    .pill {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 100px;
+      padding: 6px 16px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+      font-weight: 500;
+    }
+
+    /* Instrucciones (fuera del área de captura) */
+    .instructions {
+      width: 1200px;
+      background: #1a1a2e;
+      color: #9ca3af;
+      padding: 24px 32px;
+      font-size: 14px;
+      line-height: 1.7;
+      border-top: 1px solid #2d2d4a;
+    }
+    .instructions strong { color: #ffffff; }
+    .instructions code {
+      background: #2d2d4a;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 13px;
+      color: #4a9b6f;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">
+      <div class="logo-icon">
+        <svg fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+        </svg>
+      </div>
+      <span class="logo-text"><span>LV</span> Web</span>
+    </div>
+    <span class="badge">lucianovillarreal.com.ar</span>
+  </div>
+
+  <!-- CENTRO -->
+  <div class="center">
+    <div class="label">Demo · LV Web</div>
+    <h1 class="title">Landing Page +<br><em>Sistema de Turnos</em></h1>
+    <p class="subtitle">Tus clientes reservan solos, vos recibís la notificación.<br>Así puede quedar la página de tu consultorio.</p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <span class="url">landingturnos-demo.lucianovillarreal.com.ar</span>
+    <div class="pills">
+      <span class="pill">Vite + React</span>
+      <span class="pill">Tailwind CSS</span>
+      <span class="pill">Calendly</span>
+    </div>
+  </div>
+
+</body>
+
+<!-- Instrucciones fuera del área de captura -->
+<div class="instructions">
+  <strong>Cómo generar el og-image.jpg:</strong><br>
+  1. Abrí este archivo en Chrome o Edge.<br>
+  2. Usá las DevTools → <code>Ctrl+Shift+I</code> → seleccioná el elemento <code>&lt;body&gt;</code>.<br>
+  3. Click derecho sobre el body → <strong>Capture node screenshot</strong> (o usá una extensión como "Full Page Screen Capture").<br>
+  4. Guardá la imagen como <code>og-image.jpg</code> en la carpeta <code>/public/</code> del proyecto.<br>
+  5. Verificá que mida exactamente <strong>1200 × 630 px</strong>.
+</div>
+
+</html>
